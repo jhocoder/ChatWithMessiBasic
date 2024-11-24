@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+#principal {
+  position: relative;
+  height: 100vh;
+  background: rgb(159, 232, 233);
+  background: linear-gradient(0deg, #c5ecef 0%, #45857d 99%, #0a201e 99%);
+}
+#principal header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 2rem;
+  background-color: #dff6f2;
+  z-index: 1;
+}
+#principal header i {
+  font-size: 20px;
+}
+#principal header #box-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#principal header #box-img img {
+  width: 150%;
+}
+#principal header span {
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+#principal footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: #dff6f2;
+  height: 13vh;
+  position: fixed;
+  bottom: 0;
+  height: 77px;
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid red;
+}
+#principal footer i {
+  font-size: 20px;
+}
+#principal footer input {
+  width: 70%;
+  height: 40px;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+#principal footer #enviar {
+  position: absolute;
+  right: 16vh;
+  color: #77b9af;
+}
+#principal #main {
+  padding: 180px 1rem;
+  min-height: calc(100% - 9vh);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+}
+#principal #main .msg1 {
+  background: white;
+  padding: 7px;
+  border-radius: 10px 10px 0 10px;
+  font-size: 15px;
+  position: relative;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+#principal #main .msg1 span {
+  position: absolute;
+  bottom: -24px;
+  right: 24px;
+  color: white;
+}
+#principal #main .msg2 {
+  margin-top: 50px;
+  background: #98c2bb;
+  padding: 7px;
+  border-radius: 10px 10px 0 10px;
+  font-size: 15px;
+  position: relative;
+  margin-bottom: 50px;
+  margin-right: 60px;
+}
+#principal #main .msg2 span {
+  position: absolute;
+  bottom: -24px;
+  right: 24px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
